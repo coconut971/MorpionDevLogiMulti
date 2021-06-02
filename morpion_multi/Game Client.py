@@ -64,6 +64,10 @@ def check():
         if(btn6['text']=='X'):
             if(btn9['text']=='X'):
                 sendWinner('X-Winner')
+    if(btn4['text'] == 'X'):
+        if(btn5['text']=='X'):
+            if(btn6['text']=='X'):
+                sendWinner('X-Winner')
 #If Server - O is the Winner
     if(btn1['text'] == 'O'):
         if(btn2['text']=='O'):
@@ -93,6 +97,10 @@ def check():
                 sendWinner('O-Winner')
         if(btn6['text']=='O'):
             if(btn9['text']=='O'):
+                sendWinner('O-Winner')
+    if(btn4['text'] == 'O'):
+        if(btn5['text']=='O'):
+            if(btn6['text']=='O'):
                 sendWinner('O-Winner')
     if(counter == 5):
         sendWinner('It\'s a Tie')
