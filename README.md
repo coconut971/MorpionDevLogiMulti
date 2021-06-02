@@ -26,5 +26,12 @@ et pour ajouter un 2eme joueur faudra lancer une seconde fois le client !
 
 #OUTILS
 
-==
-Tkinter
+####Tkinter
+Tkinter est une bibliothèque graphique libre
+
+####Socket
+Le module Socket permet de gérer les connexions par socket, objet qui permet d'ouvrir la connexion avec une machine.
+
+####_thread
+_thread est sert a la gestion d'éxécution
+
